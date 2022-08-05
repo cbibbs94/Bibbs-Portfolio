@@ -34,7 +34,7 @@ function Skills() {
                 </li>
                 <li>Frameworks
                     <ul>
-                        <li>Node,js</li>
+                        <li>Node.js</li>
                         <li>React.js</li>
                     </ul>
                 </li>

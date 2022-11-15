@@ -1,12 +1,12 @@
 import About from "./components/About"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
-
+import LogoHeader from "./components/LogoHeader";
 function App() {
   return (
     <div className="App">
-      <header>My Portfolio</header>
       <div className='main-container'>
+        <LogoHeader />
         <About />
         <Skills />
         <Projects />

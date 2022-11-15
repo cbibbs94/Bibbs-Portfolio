@@ -3,6 +3,11 @@ import gameImageOne from '../images/game1.PNG'
 import gameImageTwo from '../images/game2.PNG'
 import madlibImageOne from '../images/madlib1.PNG'
 import madlibImageTwo from '../images/madlib2.PNG'
+import business1 from '../images/business1.PNG'
+import restrant1 from '../images/restrant1.PNG'
+import restrant2 from '../images/restrant2.PNG'
+import restrant3 from '../images/restrant3.PNG'
+
 
 
 const Projects = () => {
@@ -60,8 +65,34 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div className='small-business-site'></div>
-            <div className='rest-Rant'></div>
+            <div className='business-site'>
+                <h3>Small Business Site</h3>
+                <div className='business-imgs'>
+                    <img src={business1} alt="code base" height={350} width={550} />
+                </div>
+                <div className='business-description' >
+                    <p>
+                        Integer tristique aliquam est, sed condimentum dolor convallis quis. Vestibulum non orci ut mi tempus tempus. Proin ultrices purus ac ex interdum, a venenatis orci sagittis. Nulla at leo in nunc imperdiet maximus. Donec maximus ligula est, ac dignissim nisl molestie at. Pellentesque egestas laoreet augue ut volutpat. Fusce sit amet ligula imperdiet, commodo arcu non, gravida turpis. In nisi mauris, pharetra finibus tristique in, fermentum quis ligula.
+                    </p>
+                </div>
+            </div>
+
+            <div className='rest-Rant'>
+            <h3>Rest-Rant</h3>
+                <div className='business-imgs'>
+                    <img src={restrant1} alt="rest rant 1" height={350} width={550} />
+                    <img src={restrant2} alt="rest rant 2" height={350} width={550} />
+                    <img src={restrant3} alt="rest rant 3" height={350} width={550} />
+
+                </div>
+                <div className='business-description'>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem ut quam feugiat pulvinar. Praesent semper volutpat augue eget cursus. Duis     rhoncus aliquet dapibus. Aliquam aliquet eu leo sit amet auctor. Proin feugiat diam vel nisi vulputate vestibulum. Morbi vitae lorem ut odio ultrices placerat vulputate sed diam. Ut et placerat felis.
+
+                    In felis ipsum, ultrices sed erat sit amet, efficitur pharetra nisi. Aenean risus nisl, tincidunt vitae nisl nec, sollicitudin imperdiet nibh. Aliquam at facilisis tellus. Ut magna metus, ultrices vitae lobortis at, varius vel arcu. Donec malesuada fringilla felis at luctus. Vivamus luctus, neque in sodales finibus, ipsum est lobortis tellus, rhoncus rhoncus elit sem mattis tellus. Sed bibendum eleifend odio id porttitor. Mauris dignissim ultrices elit, eget egestas enim consectetur eu. In hac habitasse platea dictumst.
+                    </p>
+                </div>
+            </div>
         </section>
     )
 }

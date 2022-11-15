@@ -1,13 +1,14 @@
-import React from 'react'
-import gameImageOne from '../images/game1.PNG'
-import gameImageTwo from '../images/game2.PNG'
-import madlibImageOne from '../images/madlib1.PNG'
-import madlibImageTwo from '../images/madlib2.PNG'
-import business1 from '../images/business1.PNG'
-import restrant1 from '../images/restrant1.PNG'
-import restrant2 from '../images/restrant2.PNG'
-import restrant3 from '../images/restrant3.PNG'
-
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import gameImageOne from '../images/game1.PNG';
+import gameImageTwo from '../images/game2.PNG';
+import madlibImageOne from '../images/madlib1.PNG';
+import madlibImageTwo from '../images/madlib2.PNG';
+import business1 from '../images/business1.PNG';
+import restrant1 from '../images/restrant1.PNG';
+import restrant2 from '../images/restrant2.PNG';
+import restrant3 from '../images/restrant3.PNG';
+import GameCard from './GameCard';
 
 
 const Projects = () => {
@@ -15,6 +16,7 @@ const Projects = () => {
         <section className='projects'>
             <h2>Projects</h2>
             <div className='game'>
+                
                 <h3>Sword Logic: Survival of the Mighty </h3>
                 <div id='game-imgs'>
                     <img src={gameImageTwo} alt='game-two' height={350} width={550} />
@@ -77,7 +79,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className='rest-Rant'>
+            <div className='rest-rant'>
             <h3>Rest-Rant</h3>
                 <div className='business-imgs'>
                     <img src={restrant1} alt="rest rant 1" height={350} width={550} />

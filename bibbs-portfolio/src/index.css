@@ -7,7 +7,7 @@ body {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:darkblue;
+  background-color:black;
   border: 2px solid red;
 }
 
@@ -17,7 +17,7 @@ code {
 }
 
 
-
+header {}
 
 .logo-header{
   display: flex;
@@ -27,12 +27,14 @@ code {
 }
 
 header img {
-  height: 300px;
-  width: 700px;
+  max-height: 300px;
+  max-width: 700px;
   margin: auto;
 }
 .me-section{
   display: flex;
+  width: 85%;
+  margin: auto;
 }
 
 .about-me{
@@ -42,12 +44,60 @@ header img {
 
 .projects{
   border: 3px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 85%;
+  margin: auto;
+  
+}
+
+.projects h2 {
+  border-radius: 20px;
+  border: 1px dotted orange; 
+  height: 75px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 40px;
+  width: 90%;
+  margin: auto;
+  background-color: slategray;  
+}
+
+.game {
+  border: 2px dotted red;
+  border-radius: 30px;
+  width: 90%;
+  margin: auto 
+}
+
+.madlib {
+  border: 2px dotted red;
+  border-radius: 30px;
+  width: 90%;
+  margin: auto 
+}
+
+.business-site{
+  border: 2px dotted red;
+  border-radius: 30px;
+  width: 90%;
+  margin: auto 
+}
+
+.rest-rant{
+  border: 2px dotted red;
+  border-radius: 30px;
+  width: 90%;
+  margin: auto 
 }
 
 .skills{
   border: 3px solid aqua;
   width: 100%
 }
+
+
 
 
 

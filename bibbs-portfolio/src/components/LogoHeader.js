@@ -7,6 +7,7 @@ const LogoHeader = () => {
      return (
         <header className = 'logo-header'>
             <img src={TransparentLogo} alt='website logo' />
+            
         </header>
      )
 }

@@ -1,4 +1,5 @@
 body {
+  display: flex;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -6,7 +7,8 @@ body {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:darkblue
+  background-color:darkblue;
+  border: 2px solid red;
 }
 
 code {
@@ -15,19 +17,27 @@ code {
 }
 
 
-header img{
-  padding-left: 700px;
-  
 
-}
 
-.logo-header {
+.logo-header{
+  display: flex;
   border: 2px solid blue;
   background-color: slategrey;
+  height: 300px;
+}
+
+header img {
+  height: 300px;
+  width: 700px;
+  margin: auto;
+}
+.me-section{
+  display: flex;
 }
 
 .about-me{
-  border: 3px solid gold; 
+  border: 3px solid gold;
+  width: 100%; 
 }
 
 .projects{
@@ -36,6 +46,7 @@ header img{
 
 .skills{
   border: 3px solid aqua;
+  width: 100%
 }
 
 

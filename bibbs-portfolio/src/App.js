@@ -7,8 +7,10 @@ function App() {
     <div className="App">
       <div className='main-container'>
         <LogoHeader />
-        <About />
-        <Skills />
+        <div className="me-section">
+          <About />
+          <Skills />
+        </div>
         <Projects />
 
       </div>

@@ -17,7 +17,7 @@ code {
 }
 
 
-header {}
+
 
 .logo-header{
   display: flex;
@@ -33,7 +33,7 @@ header img {
 }
 .me-section{
   display: flex;
-  width: 85%;
+  max-width: 85%;
   margin: auto;
 }
 
@@ -64,11 +64,34 @@ header img {
   background-color: slategray;  
 }
 
+
+.carousel {
+  width: 75%;
+  margin: auto;
+  border-radius: 45px;
+  
+
+}
+.carousel img {
+  border-radius: 45px;
+  width: 70%;
+}
+
 .game {
+  display:flex;
+  flex-direction: column;
   border: 2px dotted red;
   border-radius: 30px;
   width: 90%;
   margin: auto 
+}
+#game-description p{
+  border: 2px solid gold;
+  border-radius: 40px;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+  overflow:hidden;
 }
 
 .madlib {

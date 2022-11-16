@@ -1,28 +1,17 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
-import Carousel from 'react-bootstrap/Carousel';
-import gameImageOne from '../images/game1.PNG';
-import gameImageTwo from '../images/game2.PNG';
-import madlibImageOne from '../images/madlib1.PNG';
-import madlibImageTwo from '../images/madlib2.PNG';
-import business1 from '../images/business1.PNG';
-import restrant1 from '../images/restrant1.PNG';
-import restrant2 from '../images/restrant2.PNG';
-import restrant3 from '../images/restrant3.PNG';
-import GameCard from './GameCard';
-
+import GameCard from './ProjectsCards/GameCard';
+import MadlibCard from './ProjectsCards/MadlibCard';
+import RantCard from './ProjectsCards/RantCard';
+import SiteCard from './ProjectsCards/SiteCard';
 
 const Projects = () => {
     return (
       <section className="projects">
         <h2>Projects</h2>
         <div className="game">
-          <h3>Sword Logic: Survival of the Mighty </h3>
+          <h3 id='game-header'>Sword Logic: Survival of the Mighty </h3>
           <div id="game-imgs">
             <GameCard />
-            {/* <img src={gameImageTwo} alt='game-two' height={350} width={550} />
-                    <img src={gameImageOne} alt='game-one' height={350} width={550} /> */}
           </div>
           <div id="game-description">
             <p>
@@ -70,37 +59,15 @@ const Projects = () => {
               Sed efficitur, diam vel ultricies dictum, lorem felis pellentesque
               mauris, vel vehicula dui sapien sed nulla.
               <br />
-              Donec tincidunt dapibus nisl vitae accumsan. Nulla rhoncus velit
-              vel ipsum varius imperdiet in id orci. Phasellus eget ante varius,
-              malesuada felis ut, blandit erat. Maecenas cursus iaculis diam,
-              non porttitor nisi aliquet a. Phasellus quis velit finibus, mollis
-              massa sit amet, bibendum diam. Ut id diam et neque dignissim
-              tincidunt maximus eu enim. Curabitur bibendum urna mollis magna
-              tincidunt, vel tempor arcu placerat. Class aptent taciti sociosqu
-              ad litora torquent per conubia nostra, per inceptos himenaeos.
-              Phasellus ac congue urna, ut accumsan nisi. Quisque ac dapibus
-              odio.
-              <br />
             </p>
           </div>
         </div>
         <div className="madlib">
-          <h3>Madlib Madness</h3>
+          <h3 id='madlib-header'>Madlib Madness</h3>
           <div id="madlib-imgs">
-            <img
-              src={madlibImageOne}
-              alt="madlib-one"
-              height={350}
-              width={550}
-            />
-            <img
-              src={madlibImageTwo}
-              alt="madlib-two"
-              height={350}
-              width={550}
-            />
+            <MadlibCard />
           </div>
-          <div className="madlib-description">
+          <div id="madlib-description">
             <p>
               Madlib Madness is a group, MERN (Mogno, Express, React, Node )
               stack program that sets the foundation of a web-based Adlib
@@ -166,11 +133,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="business-site">
-          <h3>Small Business Site</h3>
+          <h3 id='business-header'>Small Business Site</h3>
           <div className="business-imgs">
-            <img src={business1} alt="code base" height={350} width={550} />
+            <SiteCard />
           </div>
-          <div className="business-description">
+          <div id="business-description">
             <p>
               Integer tristique aliquam est, sed condimentum dolor convallis
               quis. Vestibulum non orci ut mi tempus tempus. Proin ultrices
@@ -185,13 +152,11 @@ const Projects = () => {
         </div>
 
         <div className="rest-rant">
-          <h3>Rest-Rant</h3>
-          <div className="business-imgs">
-            <img src={restrant1} alt="rest rant 1" height={350} width={550} />
-            <img src={restrant2} alt="rest rant 2" height={350} width={550} />
-            <img src={restrant3} alt="rest rant 3" height={350} width={550} />
+          <h3 id='restrant-header'>Rest-Rant</h3>
+          <div className="restrant-imgs">
+            <RantCard />
           </div>
-          <div className="business-description">
+          <div id="restrant-description">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in
               sem ut quam feugiat pulvinar. Praesent semper volutpat augue eget

@@ -18,7 +18,7 @@ code {
 
 
 
-
+/* top of the page */
 .logo-header{
   display: flex;
   border: 2px solid blue;
@@ -31,6 +31,8 @@ header img {
   max-width: 700px;
   margin: auto;
 }
+
+/* About me and Skills Section */
 .me-section{
   display: flex;
   max-width: 85%;
@@ -42,6 +44,12 @@ header img {
   width: 100%; 
 }
 
+.skills{
+  border: 3px solid aqua;
+  width: 100%
+}
+
+/* Projects section */
 .projects{
   border: 3px solid orange;
   display: flex;
@@ -64,61 +72,143 @@ header img {
   background-color: slategray;  
 }
 
-
+/* All Carousel Styling */
 .carousel {
   width: 75%;
   margin: auto;
   border-radius: 45px;
-  
-
+  border: 2px solid orangered
 }
+
+
 .carousel img {
   border-radius: 45px;
-  width: 70%;
+  width: 65%;
+  padding: 5px 5px
+  
 }
 
+
+/* Game */
 .game {
   display:flex;
   flex-direction: column;
   border: 2px dotted red;
   border-radius: 30px;
   width: 90%;
-  margin: auto 
+  margin: auto; 
+  background-color:rgb(78, 110, 252)
 }
+#game-header {
+  background-color: #7e1dec;
+  border-radius: 20px;
+  height: 60px;
+  text-align: center;
+  line-height: 45px;
+
+}
+
 #game-description p{
   border: 2px solid gold;
   border-radius: 40px;
   text-align: center;
   max-width: 75%;
   margin: auto;
-  overflow:hidden;
+  overflow: auto;
+  padding: 20px 20px 20px 20px;
+  box-shadow: -5px 5px 100px -25px white inset;
 }
 
+/* Madlib */
 .madlib {
+  display:flex;
+  flex-direction: column;
   border: 2px dotted red;
   border-radius: 30px;
   width: 90%;
-  margin: auto 
+  margin: auto; 
+  background-color:rgb(78, 110, 252)
 }
 
+#madlib-header{
+  background-color: #7e1dec;
+  border-radius: 20px;
+  height: 60px;
+  text-align: center;
+  line-height: 45px;
+}
+
+#madlib-description p{
+  border: 2px solid gold;
+  border-radius: 40px;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+  overflow: auto;
+  padding: 20px 20px 20px 20px;
+  box-shadow: -5px 5px 100px -25px white inset;
+}
+
+/* Business Site */
 .business-site{
+  display:flex;
+  flex-direction: column;
   border: 2px dotted red;
   border-radius: 30px;
   width: 90%;
-  margin: auto 
+  margin: auto; 
+  background-color:rgb(78, 110, 252)
 }
 
-.rest-rant{
+#business-header {
+  background-color: #7e1dec;
+  border-radius: 20px;
+  height: 60px;
+  text-align: center;
+  line-height: 45px;
+}
+
+#business-description p {
+  border: 2px solid gold;
+  border-radius: 40px;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+  overflow: auto;
+  padding: 20px 20px 20px 20px;
+  box-shadow: -5px 5px 100px -25px white inset;
+}
+
+/* Rest Rant */
+.rest-rant {
+  display:flex;
+  flex-direction: column;
   border: 2px dotted red;
   border-radius: 30px;
   width: 90%;
-  margin: auto 
+  margin: auto; 
+  background-color:rgb(78, 110, 252)
 }
 
-.skills{
-  border: 3px solid aqua;
-  width: 100%
+#restrant-header {
+  background-color: #7e1dec;
+  border-radius: 20px;
+  height: 60px;
+  text-align: center;
+  line-height: 45px;
 }
+
+#restrant-description p {
+  border: 2px solid gold;
+  border-radius: 40px;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+  overflow: auto;
+  padding: 20px 20px 20px 20px;
+  box-shadow: -5px 5px 100px -25px white inset;
+}
+
 
 
 

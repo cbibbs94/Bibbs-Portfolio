@@ -1,5 +1,5 @@
 import React from 'react'
-
+import postgresLogo from '../images/Postgres.svg'
 function Skills() {
     return (
         <div className='skills'>
@@ -25,7 +25,7 @@ function Skills() {
                         </li>
                         <li>SQL
                             <ul>
-                                <li>Postgres</li>
+                                <li><img src={postgresLogo} alt="postgres logo"/></li>
                                 <li>Sequelize</li>
                             </ul>
                         </li>
@@ -48,6 +48,9 @@ function Skills() {
                     </ul>
                 </li>
             </ul>
+            <div className='skills-overlay'>
+                <div className='skills-overlay-text'>Skills</div>
+            </div>
         </div>
     )
 }

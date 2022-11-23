@@ -44,7 +44,7 @@ const Projects = () => {
             Tech-Stack ● JavaScript ● CSS ● HTML/HTML Canvas ● Tiled ● Solo
             Project
           </p>
-          <p>
+          <p id='p-section'>
             Madlib Madness is a group, MERN (Mogno, Express, React, Node ) stack
             program that sets the foundation of a web-based Adlib activity.
             Madlibs is a word game where a player is given a story with words

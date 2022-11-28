@@ -1,27 +1,31 @@
 import React from 'react'
-import postgresLogo from '../images/Postgres.svg'
-import JSLogo from "../images/jsLogo.svg"
-import pythonLogo from "../images/pythonLogo.svg"
-import cPlusLogo from "../images/cPlusLogo.png"
-import htmlLogo from "../images/htmlLogo.svg"
-import javaLogo from "../images/javaLogo.svg"
-import githubLogo from "../images/githubLogo.svg"
-import gitLogo from "../images/gitLogo.svg"
-import debuggingLogo from "../images/debuggingLogo.png"
-import cssLogo from "../images/cssLogo.svg"
-import herokuLogo from "../images/herokuLogo.svg"
-import mongoLogo from "../images/mongoLogo.svg"
-import mongooseLogo from "../images/mongooseLogo.svg" 
-import nodeLogo from "../images/nodeLogo.svg"
-import sqlLogo from "../images/sqlLogo.png"
-import reactLogo from "../images/reactLogo.svg"
-import apiLogo from "../images/apiLogo.png"
+// import postgresLogo from '../images/Postgres.svg'
+// import JSLogo from "../images/jsLogo.svg"
+// import pythonLogo from "../images/pythonLogo.svg"
+// import cPlusLogo from "../images/cPlusLogo.png"
+// import htmlLogo from "../images/htmlLogo.svg"
+// import javaLogo from "../images/javaLogo.svg"
+// import githubLogo from "../images/githubLogo.svg"
+// import gitLogo from "../images/gitLogo.svg"
+// import debuggingLogo from "../images/debuggingLogo.png"
+// import cssLogo from "../images/cssLogo.svg"
+// import herokuLogo from "../images/herokuLogo.svg"
+// import mongoLogo from "../images/mongoLogo.svg"
+// import mongooseLogo from "../images/mongooseLogo.svg" 
+// import nodeLogo from "../images/nodeLogo.svg"
+// import sqlLogo from "../images/sqlLogo.png"
+// import reactLogo from "../images/reactLogo.svg"
+// import apiLogo from "../images/apiLogo.png"
+// import IMAGES from "../index2"
+import SkillsIcons from "../components/SkillsIcons"
+
 
 function Skills() {
     return (
         <div className='skills'>
             <h2>Skills</h2>
-            <ul>
+            < SkillsIcons />
+            {/* <ul>
                 <li>Languages:
                     <ul>
                     <li><img src={JSLogo} alt="Javascript" /></li>
@@ -64,7 +68,7 @@ function Skills() {
                     <li><img src={debuggingLogo} alt="Debugging" /></li>
                     </ul>
                 </li>
-            </ul>
+            </ul> */}
             <div className='skills-overlay'>
                 <div className='skills-overlay-text'>Skills</div>
             </div>

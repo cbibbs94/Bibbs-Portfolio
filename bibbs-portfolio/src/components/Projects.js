@@ -14,11 +14,11 @@ const Projects = () => {
           <GameCard />
         </div>
         <div id="game-description">
-          <p>
+          <p id="tech-stack">
             Tech-Stack ● JavaScript ● CSS ● HTML/HTML Canvas ● Tiled ● Solo
             Project
           </p>
-          <p>
+          <p id="description-sample">
             Built using HTML Canvas, some light css, and JavaScript classes.
             This project embodies the basic principles of how games are
             developed, by isolating different logics of the game into functional

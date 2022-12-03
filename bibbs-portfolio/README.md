@@ -87,3 +87,8 @@ Credits:
 <a target="_blank" href="https://icons8.com/icon/20906/git">Git</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/21895/rest-api">Rest API</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/pJOPTg0Ui7le/debugging">Debugging</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a href="https://www.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds_9970519.htm#page=3&query=technology&position=27&from_view=search&track=sph">Image by wirestock</a> on Freepik
+
+Source: <a href='https://www.flickr.com/photos/152824664@N07/44405378084/'>
+Author	mikemacmarketing</a>

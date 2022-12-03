@@ -15,8 +15,7 @@ function SkillsIcons() {
       {IMAGES.map((item) => (
         // console.log(item)
         <ImageListItem
-          sx={{ 
-          border: "1px solid var(--color11)", 
+          sx={{  
           width: 124, 
           height: 124,
           margin: 'auto' 

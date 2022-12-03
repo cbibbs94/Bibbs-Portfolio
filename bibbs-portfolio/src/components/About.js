@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import triLights from '../images/triLights.jpg'
 
 const About = () => {
     return (
@@ -14,7 +15,11 @@ const About = () => {
                 Then finally, my experiences with different types of leaders and then eventually becoming a leader myself, has taught me the value of knowing when to lead and when to listen. 
             </p>
             <div className='about-overlay'>
-                <div className='about-overlay-text'>ABOUT ME</div>
+                <div className='about-overlay-text'
+                >
+                    ABOUT ME
+                    {/* <img src={triLights} alt='triangle lights' /> */}
+                </div>
             </div>
         </div>
     )

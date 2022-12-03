@@ -8,17 +8,21 @@ const Projects = () => {
   return (
     <section className="projects">
       <h2>Projects</h2>
-      <div className="game">
-        <h3 id="game-header">Sword Logic: Survival of the Mighty </h3>
-        <div id="game-imgs">
+      <div className="card">
+        <h3 className="card-header">Sword Logic: Survival of the Mighty </h3>
+        <div className="card-imgs">
           <GameCard />
         </div>
-        <div id="game-description">
-          <p id="tech-stack">
-            Tech-Stack ● JavaScript ● CSS ● HTML/HTML Canvas ● Tiled ● Solo
-            Project
-          </p>
-          <p id="description-sample">
+        <div className="card-description">
+          <div className="tech-stack">
+            <ul>
+              <li>Javascript</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Tiled</li>
+            </ul>
+          </div>
+          <p className="detailed-description">
             Built using HTML Canvas, some light css, and JavaScript classes.
             This project embodies the basic principles of how games are
             developed, by isolating different logics of the game into functional
@@ -34,17 +38,17 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="madlib">
-        <h3 id="madlib-header">Madlib Madness</h3>
-        <div id="madlib-imgs">
+      <div className="card">
+        <h3 className="card-header">Madlib Madness</h3>
+        <div className="card-imgs">
           <MadlibCard />
         </div>
-        <div id="madlib-description">
-          <p>
+        <div className="card-description">
+          <div className='tech-stack'>
             Tech-Stack ● JavaScript ● CSS ● HTML/HTML Canvas ● Tiled ● Solo
             Project
-          </p>
-          <p id='p-section'>
+          </div>
+          <div className='detailed-description'>
             Madlib Madness is a group, MERN (Mogno, Express, React, Node ) stack
             program that sets the foundation of a web-based Adlib activity.
             Madlibs is a word game where a player is given a story with words
@@ -59,20 +63,20 @@ const Projects = () => {
             input type for a premade story and see how their inputs change the
             story. My roles in this project were Team-Lead, Backend Developer
             and assistant to the Frontend Developer.
-          </p>
+          </div>
         </div>
       </div>
-      <div className="business-site">
-        <h3 id="business-header">Small Business Site</h3>
+      <div className="card">
+        <h3 className="card-header">Small Business Site</h3>
         <div className="business-imgs">
           <SiteCard />
         </div>
-        <div id="business-description">
-          <p>
+        <div className="card-description">
+          <div className='tech-stack'>
             TTech-Stack ● JavaScript ● CSS ● HTML/HTML Canvas ● Tiled ● Solo
             Project
-          </p>
-          <p>
+          </div>
+          <div className='detailed-description'>
             A backend focused project that puts emphasis on databases and the
             different purposes they can serve in a web application. Exploring
             polyglot database persistence, This business site uses both MongoDB
@@ -86,21 +90,21 @@ const Projects = () => {
             information they sent to the site-owner. As this is a private-client
             project, the site is waiting on design specification from the owner
             and still in development.
-          </p>
+          </div>
         </div>
       </div>
 
-      <div className="rest-rant">
-        <h3 id="restrant-header">Rest-Rant</h3>
+      <div className="card">
+        <h3 className="card-header">Rest-Rant</h3>
         <div className="restrant-imgs">
           <RantCard />
         </div>
-        <div id="restrant-description">
-          <p>
+        <div className="card-description">
+          <div className='tech-stack'>
             TTech-Stack ● JavaScript ● CSS ● HTML/HTML Canvas ● Tiled ● Solo
             Project
-          </p>
-          <p>
+          </div>
+          <div className='detailed-description'>
             Rest-Rant is a project that was built in two different ways: The
             Full-Stack way and The Server-side Rendering(SSR) way. The server
             side rendered version explores the Models, Views, Controllers(MVC)
@@ -116,7 +120,7 @@ const Projects = () => {
             performance of this app overall improved and was more responsive.
             This school Project was deployed on Heroku while it was still free
             and is currently being worked on to be deployed elsewhere.
-          </p>
+          </div>
         </div>
       </div>
     </section>

@@ -13,6 +13,8 @@ const About = () => {
                 It also taught me how to listen to other attentively, think about information received critically and respond to that information appropriately.
                 I learned a pleathora of life saving techniques in cases of emergency and how to effectively communicate between a multitude of different organizations in times of high stress.
                 Then finally, my experiences with different types of leaders and then eventually becoming a leader myself, has taught me the value of knowing when to lead and when to listen. 
+
+                There is more to come.
             </p>
             <div className='about-overlay'>
                 <div className='about-overlay-text'
